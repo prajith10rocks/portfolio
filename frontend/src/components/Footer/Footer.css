@@ -1,0 +1,146 @@
+.footer{
+     display: flex;
+    flex-direction: column;
+    margin: 80px 150px;
+    gap: 30px;
+    
+}
+
+.footer_top{
+   display: flex; 
+   justify-content: space-between;
+}
+.footer_top_left img{
+     width: 35%;
+     margin-top: 11px;
+     height: 100%;
+}
+.p{
+    font-size: 20px;
+}
+.footer hr{
+    margin-top: 35px;
+}
+.footer_top_right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.footer_email{
+    display: flex;
+    gap: 20px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    background: #2f2f35;
+    padding-right: 50px;
+}
+.footer_email input{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #a0a0a0;
+    cursor: pointer;
+}
+.footer_subscribe{
+    font-size: 20px;
+    padding: 20px 50px;
+    border-radius: 50px;
+    background: linear-gradient(260deg, #a100ff, #ff007a);
+    font-family: 'outfit';
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.footer_bottom_right{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+
+.footer_email:hover{
+    border: 2px solid white;
+}
+
+@media(max-width: 768px)
+{
+    .footer{
+        margin: 50px 70px;
+    }
+    .footer_top{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer_bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+    .footer_top_left p{
+        display: none;
+    }
+    .footer_top_left img{
+        width: 50%;
+    }
+    .footer hr{
+        margin-top: 2%;
+    }
+
+}
+
+@media(max-width: 576px)
+{
+    .footer{
+        margin: 50px 100px;
+    }
+    .footer_top{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer_bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+    .footer_top_left p{
+        display: none;
+    }
+    .footer_top_left img{
+        width: 70%;
+        animation: pulse 2s infinite ease-in-out;
+    }
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+         }
+         50% {
+            transform: scale(1.07);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    .footer hr{
+        margin-top: 2%;
+        margin-left: 15%;
+    }
+    .footer_email input{
+        width: 6.5rem;
+    }
+    .footer_subscribe{
+        padding: 20px 45px;
+    }
+
+    .footer_bottom_right{
+        margin-left: 15%;
+    }
+    .footer_bottom_left{
+        margin-left: 15%;
+        width: 100%;
+    }
+}
