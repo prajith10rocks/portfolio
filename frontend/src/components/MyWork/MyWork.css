@@ -72,7 +72,7 @@
 }
 
 
-@media(max-width: 768px)
+@media(min-width: 640px) and (max-width: 768px)
 {
     .mywork{
         margin: 50px 70px;
@@ -97,6 +97,7 @@
     }
     .work_format{
         padding: 6% 5%;
+        width: 95%;
     }
 
     .work_container img{
@@ -106,6 +107,8 @@
 
     .work_options{
         gap: 10%;
+        display: flex;
+        justify-content: center;
 
     }
     .demo{
@@ -119,6 +122,51 @@
     }
 }
 
+
+
+@media(min-width: 475px) and  (max-width: 637px)
+{
+    .mywork{
+        max-width: 475px;
+        /* border: 2px solid white; */
+        width: 80%;
+        margin: 0% auto;
+    }
+    .work_title h1{
+        font-size: 40px;
+    }
+    .work_title img{
+         width: 90px;
+        right: -10px;
+        bottom: -6px;
+    }
+    .work_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: -8%;
+        padding-inline: 1rem;
+    }
+    .work_format{
+        width: 80%;
+        height: auto;
+        padding: 5%;
+        
+    }
+    .work_format img{
+        width: 100%;
+        height: auto;
+    }
+    .work_options{
+        gap: 10%;
+        justify-content: center;
+        margin-top: 15%;
+    }
+}
+
+
+/* 
 @media(max-width: 576px)
 {
     .mywork{
@@ -168,4 +216,4 @@
         font-size: 15px;
         padding: 6% 15%;
     }
-}
+} */

@@ -93,10 +93,12 @@
 
 }
 
-@media(max-width: 576px)
+@media(min-width: 475px) and (max-width: 637px)
 {
     .footer{
-        margin: 50px 100px;
+       width: 80%;
+        max-width: 475px;
+        margin: 15% auto;
     }
     .footer_top{
         flex-direction: column;
@@ -111,7 +113,7 @@
         display: none;
     }
     .footer_top_left img{
-        width: 70%;
+        width: 60%;
         animation: pulse 2s infinite ease-in-out;
     }
     @keyframes pulse {
@@ -127,13 +129,14 @@
     }
     .footer hr{
         margin-top: 2%;
-        margin-left: 15%;
+        margin-left: 0.5%;
     }
     .footer_email input{
-        width: 6.5rem;
+        width: 5rem;
     }
     .footer_subscribe{
         padding: 20px 45px;
+        font-size: 16px;
     }
 
     .footer_bottom_right{

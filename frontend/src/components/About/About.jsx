@@ -22,7 +22,7 @@ export const About = () => {
                 <div className="about_skills">
                     <div className="about_skill"><p>HTML & CSS</p><hr style={{width: "50%"}}/></div>
                     <div className="about_skill"><p>REACT JS</p><hr style={{width: "75%"}}/></div>
-                    <div className="about_skill"><p>JAVASCRIPT</p><hr style={{width: "60%"}}/></div>
+                    <div className="about_skill"><p>JAVASCRIPT</p><hr style={{width: "50%"}}/></div>
                     <div className="about_skill"><p>NODE JS & EXPRESS</p><hr style={{width: "80%"}}/></div>
                 </div>
             </div>

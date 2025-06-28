@@ -71,7 +71,7 @@
 }
 
 
-@media(max-width: 768px)
+@media(min-width: 640px) and (max-width: 768px)
 {
     .about{
         margin: 50px 70px;
@@ -108,8 +108,56 @@
     }
 }
 
+@media (min-width: 475px) and (max-width: 637px)
+{
+    .about{
+        max-width: 475px;
+        /* border: 2px solid white; */
+        width: 80%;
+        margin: 10% 12%;
+    }
+    .about_title h1{
+        font-size: 40px;
+        padding: 0;
+    }
+    .about_title img{
+        width: 80px;
+        right: -15px;
+        bottom: -6px;
+    }
+    .about_left{
+        display: none;
+    }
+    .about_sections{
+        margin-top: -8%;
+    }
+    .about_para{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .about_skill p{
+        font-size: 16px;
+    }
+    .about_skill hr{
+        height: 4px;
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+/* 
 @media(max-width: 576px)
 {
+    .about{
+        margin: 2% 6%;
+        align-items: center;
+        gap: 50px;
+    }
     .about_title h1{
         font-size: 40px;
         padding: 0;
@@ -120,23 +168,27 @@
         bottom: -3px;
     }
      .about_para{
-        font-size: 17px;
-        max-width: 99%;
+        font-size: 16px;
+        text-align: center;
+        padding: 5% 10%;
+        max-width: 80%;
         height: auto;
         line-height: 32px;
+    }
+    .about_skills{
+        padding: 2% 10%;
     }
     .about_skill{
         gap: 2px;
         align-items: center;
     }
     .about_skill hr{
-        height: 5px;
-        width: 40%;
-        margin-right: 3%;
+        height: 4px;
+        width: 10%;
 
     }
     .about_skill p{
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 500;
     }
-}
+} */

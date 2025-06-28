@@ -100,7 +100,8 @@ transform: scale(1.05);
     }
 }
 
-@media(max-width: 576px){
+@media(max-width: 576px)
+{
     .navbar{
         margin: 30px 45px;
     }
