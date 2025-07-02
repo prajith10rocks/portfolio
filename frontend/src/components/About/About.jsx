@@ -17,7 +17,7 @@ export const About = () => {
             <div className="about_right">
                 <div className="about_para">
                     <p> Iam a passionate Full Stack Developer specializing in the MERN stack (MongoDB, Express, React, Node.js). I enjoy building responsive, scalable web applications and exploring new technologies.</p>
-                    <p>With a strong foundation in both frontend and backend development, I aim to create seamless digital experiences and smart solutions that solve real-world problems. Currently expanding my skills into mobile app development with React Native.</p>
+                    <p className='second'>With a strong foundation in both frontend and backend development, I aim to create seamless digital experiences and smart solutions that solve real-world problems. Currently expanding my skills into mobile app development with React Native.</p>
                 </div>
                 <div className="about_skills">
                     <div className="about_skill"><p>HTML & CSS</p><hr style={{width: "50%"}}/></div>

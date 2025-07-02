@@ -112,4 +112,13 @@ transform: scale(1.05);
         background-color: #1b0014;
         backdrop-filter: blur(5px);
     }
+    .nav-menu li{
+        padding-left: 5rem;
+        font-size: 18px;
+    }
+    .nav_open{
+        display: block;
+        margin-top: 0.4rem;
+        font-size: 2rem;
+    }
 }

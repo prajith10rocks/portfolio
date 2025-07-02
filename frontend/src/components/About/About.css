@@ -146,6 +146,55 @@
 
 }
 
+@media (max-width: 474px) {
+  .about{
+    width: 80%;
+    margin: 10% auto;
+  }
+  .about_title h1{
+        font-size: 40px;
+        padding: 0;
+    }
+    .about_title img{
+        width: 80px;
+        right: -15px;
+        bottom: -6px;
+    }
+    .about_left{
+        display: none;
+    }
+    .about_sections{
+        margin-top: -8%;
+    }
+    .about_para{
+        font-size: 16px;
+        min-height: 10px;
+        text-align: center;
+    }
+    .second{
+        display: none;
+    }
+    .about_skill p{
+        font-size: 15px;
+    }
+    .about_skill:nth-child(1) hr{
+        width: 50% !important;
+    }
+    .about_skill:nth-child(2) hr {
+        width: 42% !important;
+    }
+    .about_skill:nth-child(3) hr {
+        width: 40% !important;
+    }
+    .about_skill:nth-child(4) hr {
+         width: 45% !important;
+    }
+
+
+
+
+
+}
 
 
 
